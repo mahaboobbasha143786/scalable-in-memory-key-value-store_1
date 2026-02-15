@@ -67,7 +67,6 @@ PyKV follows a modular architecture with three main layers:
 | GET | `/get/{key}` | Retrieve the value for a given key |
 | DELETE | `/delete/{key}` | Delete a key-value pair |
 
-All endpoints are accessible via Swagger UI.
 
 ---
 
