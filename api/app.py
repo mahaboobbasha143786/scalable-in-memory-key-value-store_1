@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException
 # Import Custom key-value store class
 from engine.store import PyKVStore
 
-# Create FastAPI app with title shown in Swagger docs
+# Create FastAPI app with title
 app = FastAPI(title="PyKV - In-Memory Key Value Store")
 
 # Create one global store instance to hold data in memory
