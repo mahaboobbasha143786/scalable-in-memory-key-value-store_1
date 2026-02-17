@@ -49,6 +49,12 @@ PyKV follows a modular architecture with three main layers:
    - Exposes RESTful endpoints
    - Uses Swagger UI for testing and demonstration
 
+4.**Testing & Validation**
+   - Tested PUT, GET, and DELETE operations
+   - Verified persistence after application restart
+   - Validated API responses and error handling
+   - Ensured system stability under edge cases
+
 ---
 
 ## 🔧 Technologies Used
